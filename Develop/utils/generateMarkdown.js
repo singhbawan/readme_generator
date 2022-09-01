@@ -24,9 +24,9 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
    ${renderLicenseBadge(data.license)}
-  ## Description
-  * ${data.description}
+  
   ## Table of Contents
+  * [Description](#description)
   * [Installation](#installation-instructions)
   * [Usage](#usage-information)
   * [Contributing](#contribution-guidelines)
@@ -34,6 +34,8 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Questions](#questions)
   
+  ## Description
+  ${data.description}
   ## Installation Instructions
   ${data.installation}
   ## Usage Information

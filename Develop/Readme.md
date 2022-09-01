@@ -1,9 +1,9 @@
 
   # Pods and Parks
-  * [![License](https://img.shields.io/badge/License-ECL--2.0-blue?style=plastic.svg)](https://opensource.org/licenses/ECL-2.0)
-  ## Description
-  * This is a website where you can listen to podcasts and also search for nearest parks to go for running.
+   [![License](https://img.shields.io/badge/License-IPL--1.0-blue?style=plastic.svg)](https://opensource.org/licenses/IPL-1.0)
+  
   ## Table of Contents
+  * [Description](#description)
   * [Installation](#installation-instructions)
   * [Usage](#usage-information)
   * [Contributing](#contribution-guidelines)
@@ -11,16 +11,18 @@
   * [License](#license)
   * [Questions](#questions)
   
+  ## Description
+  This is a website that can be used to listen to podcasts
   ## Installation Instructions
-  undefined
+  None
   ## Usage Information
-  it can be used by anyone by going to the website
+  It can be used by anyone by going to the website link
   ## Contribution guidelines
-  make an issue and then create pull request once it is reviewed by a contributer it will be merged
+  create a pull request and once it is reviewed by a member it will be merged
   ## Tests Instructions
-  none
+  N/A
   ## License
-  Application is covered under [ECL-2.0](https://opensource.org/licenses/ECL-2.0) license.
+  Application is covered under [IPL-1.0](https://opensource.org/licenses/IPL-1.0) license.
   
   ## Questions
   
