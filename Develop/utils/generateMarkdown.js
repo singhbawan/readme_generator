@@ -22,7 +22,8 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}        ${renderLicenseBadge(data.license)}
+  # ${data.title}
+   ${renderLicenseBadge(data.license)}
   ## Description
   * ${data.description}
   ## Table of Contents
@@ -42,7 +43,7 @@ function generateMarkdown(data) {
   ## Tests Instructions
   ${data.testInstructions}
   ## License
-  Application is covered under ${data.license} license.
+  Application is covered under [${data.license}](https://opensource.org/licenses/${data.license}) license.
   
   ## Questions
   
